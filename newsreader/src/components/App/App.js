@@ -12,7 +12,7 @@ const App = () => {
 
   return (
   <main className='App'>
-    <h1>News Reader</h1>
+    <h1>Dark News Reader</h1>
     <ArticleContainer articles={articles}/>
   </main>
 
