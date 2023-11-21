@@ -1,9 +1,13 @@
 import './Card.css'
 
-const Card = () => {
+const Card = ( { id, title, image, description, date } ) => {
+  
   return (
     <div className='card'>
-      <h3>I am a card!</h3>
+      <p>{title}</p>
+      <img src={image} /> 
+      <p>{description}</p>
+      <p>{date}</p>
     </div>
   )
 }

@@ -5,7 +5,7 @@ const ArticleContainer = ( { articles } ) => {
   console.log("articles:=====", articles);
 
   const articleCards = articles.articles.map((article) => {
-    const { title, urlToImage, description, publishedAt, id } = articles; 
+    const { title, urlToImage, description, publishedAt, id } = article; 
     
     return (
       <Card 
@@ -18,6 +18,7 @@ const ArticleContainer = ( { articles } ) => {
       />
     )
   })
+  console.log("articleCards:=====", articleCards);
 
   return (
     <main className='article-container'>
