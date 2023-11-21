@@ -1,0 +1,26 @@
+header {
+  background-color: #202341;
+  height:120px;
+  margin-bottom: 20px;
+}
+
+.logo-title-container {
+  display: flex;
+
+
+}
+
+.header-title {
+  
+  color: white;
+  font-size: 50px;
+  font-family: fantasy;
+  font-weight: 900;
+}
+
+.news-logo {
+height: 100px;
+width: 100px;
+
+ 
+}

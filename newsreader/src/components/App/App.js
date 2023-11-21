@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import mockData from "../../MockData";
 import ArticleContainer from "../ArticleContainer/ArticleContainer";
+import Header from "../Header/Header";
 
 const App = () => {
   const [articles, setArticles] = useState(mockData);
@@ -11,10 +12,20 @@ const App = () => {
   const [error, setError] = useState("");
 
   return (
+    <Router>
   <main className='App'>
-    <h1>Dark News Reader</h1>
+      <Routes>
+        <Route path='/' element={
+          <>
+          <Header />
+          </>
+        }>
+
+        </Route>
+      </Routes>
     <ArticleContainer articles={articles}/>
   </main>
+    </Router>
 
   )
 };
