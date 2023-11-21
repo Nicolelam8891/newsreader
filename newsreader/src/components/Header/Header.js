@@ -20,12 +20,13 @@ const Header = ( { setSearchInput }) => {
       </div>
       <div className='search-bar-container'>
         <form onSubmit={handleSearch}>
-          <input
+          <input className="search-input-bar"
             type="text"
+            placeholder= 'Search Article Title...'
             value={searchArticle}
             onChange={(event) => setSearchArticle(event.target.value)}
           />
-          <button type='submit'>SEARCH</button>
+          <button className="search-button" type='submit'>SEARCH</button>
         </form>
       </div>
     </header>
