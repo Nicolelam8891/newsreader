@@ -6,21 +6,25 @@ header {
 
 .logo-title-container {
   display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
 
 
 }
 
 .header-title {
-  
-  color: white;
-  font-size: 50px;
+  color: rgba(145, 210, 247, 0.6);
+  font-size: 25px;
   font-family: fantasy;
   font-weight: 900;
+  margin: 15px;
+  margin-top: 35px;
 }
 
 .news-logo {
-height: 100px;
-width: 100px;
-
+height: 90x;
+width: 250px;
+margin-top: 15px;
  
 }

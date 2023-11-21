@@ -8,7 +8,7 @@ const Header = () => {
         <Link to='/'>
           <img src='news.png' className='news-logo' />
         </Link>
-          <p className='header-title'>Dark News Reader</p>
+          <p className='header-title'><em>Your nightly news reader</em></p>
       </div>
       <div className='search-bar-container'></div>
     </header>

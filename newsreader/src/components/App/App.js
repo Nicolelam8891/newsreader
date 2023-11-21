@@ -7,8 +7,6 @@ import Header from "../Header/Header";
 
 const App = () => {
   const [articles, setArticles] = useState(mockData);
-  console.log("articles:=====", articles);
-  console.log("mockData:=====", mockData);
   const [error, setError] = useState("");
 
   return (
