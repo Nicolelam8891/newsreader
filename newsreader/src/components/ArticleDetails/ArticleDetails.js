@@ -39,8 +39,9 @@ const ArticleDetails = ({ articles }) => {
         </div>
         <div className='article-info-container'>
           <p className='article-title'>{article.title}</p>
-          <p className='article-date'> Published: 
+          <p className='article-date'>
             {" "}
+            Published:{" "}
             {new Date(article.publishedAt).toLocaleDateString("en-US", {
               year: "numeric",
               month: "long",

@@ -1,13 +1,13 @@
-import './ArticleContainer.css'
-import Card from '../Card/Card';
+import "./ArticleContainer.css";
+import Card from "../Card/Card";
 
-const ArticleContainer = ( { articles } ) => {
-
+const ArticleContainer = ({ articles }) => {
   const articleCards = articles.map((article, index) => {
-    const { id, title, urlToImage, description, publishedAt } = article;
     
+    const { id, title, urlToImage, description, publishedAt } = article;
+
     return (
-      <Card 
+      <Card
         key={id || index}
         index={index}
         title={title}
@@ -15,14 +15,10 @@ const ArticleContainer = ( { articles } ) => {
         description={description}
         date={publishedAt}
       />
-    )
-  })
+    );
+  });
 
-  return (
-    <main className='article-container'>
-      {articleCards}
-    </main>
-  )
-}
+  return <main className='article-container'>{articleCards}</main>;
+};
 
 export default ArticleContainer;
