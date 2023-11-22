@@ -3,13 +3,13 @@ import Card from '../Card/Card';
 
 const ArticleContainer = ( { articles } ) => {
 
-  const articleCards = articles.map((article) => {
-    const { title, urlToImage, description, publishedAt, id } = article; 
+  const articleCards = articles.map((article, index) => {
+    const { id, title, urlToImage, description, publishedAt } = article;
     
     return (
       <Card 
-        key={id}
-        id={id}
+        key={id || index}
+        index={index}
         title={title}
         image={urlToImage}
         description={description}
@@ -17,7 +17,6 @@ const ArticleContainer = ( { articles } ) => {
       />
     )
   })
-  console.log("articleCards:=====", articleCards);
 
   return (
     <main className='article-container'>

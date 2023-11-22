@@ -34,8 +34,12 @@
   animation: slideInFromLeft 0.5s ease-out forwards;
 }
 
+.no-underline {
+  text-decoration: none;
+}
+
 .card:hover {
-  border: solid 3px #4c53a0;
+  border: solid 3px #5887b6;
 }
 
 .card-button:hover {
