@@ -29,7 +29,7 @@ const ArticleDetails = ({ articles }) => {
 
   return (
     <div className='single-article-page'>
-      <div className='article-details'>
+      <div className='article-details-container'>
         <div className='article-image-container'>
           <img
             className='article-image'
