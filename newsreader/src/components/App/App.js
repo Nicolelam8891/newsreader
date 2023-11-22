@@ -5,6 +5,7 @@ import mockData from "../../MockData";
 import ArticleContainer from "../ArticleContainer/ArticleContainer";
 import ArticleDetails from "../ArticleDetails/ArticleDetails";
 import Header from "../Header/Header";
+import BadRoute from "../BadRoute/BadRoute";
 
 const App = () => {
   const [articles, setArticles] = useState([]);
@@ -56,6 +57,14 @@ const App = () => {
             <>
               <ArticleDetails articles={filterdArticles} />
             </>
+          }
+        />
+        <Route
+          path='/*'
+          element={
+            <BadRoute
+              errorRoute={"Oh no, you have gone down the wrong path. Find your path back home by clicking on the home button!"}
+            />
           }
         />
       </Routes>
