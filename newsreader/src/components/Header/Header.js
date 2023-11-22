@@ -26,7 +26,7 @@ const Header = ({ setSearchInput }) => {
       </div>
       <div className='search-bar-container'>
         {isNotHomePage ? (
-          <Link to='/' className='home-button'>
+          <Link to='/' className='home-button no-underline'>
             HOME
           </Link>
         ) : (
@@ -34,7 +34,7 @@ const Header = ({ setSearchInput }) => {
             <input
               className='search-input-bar'
               type='text'
-              placeholder='Search Article Title...'
+              placeholder='Search for articles...'
               value={searchArticle}
               onChange={(event) => setSearchArticle(event.target.value)}
             />
