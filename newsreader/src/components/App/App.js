@@ -56,7 +56,7 @@ const App = () => {
           path='/articleDetails/:index'
           element={
             <>
-              <ArticleDetails articles={filterdArticles} />
+              <ArticleDetails  articles={filterdArticles}/>
             </>
           }
         />
