@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+<div align="center">
+<h1>DARK SKY: Your nightly news reader </h1>
+View the latest news!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Technologies used:<br>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+</div>
 
-In the project directory, you can run:
+## Abstract: 
+"DarkSky: Your Nightly News Reader" is an  application designed to cater to the modern news reader's preferences for reading at night. With an intuitive dark mode interface, it minimizes screen glare and enhances the reading experience during the evening or in low-light environments. The app features a seamless, real-time search field that allows you to sift through a multitude of news articles with ease.
 
-### `npm start`
+Upon selecting an article on the home screen, you are directed to a dedicated page that provides a more detailed view of the article. This page is thoughtfully designed to offer a summary and for those seeking the full story, a direct link is provided to read the article on the original website.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+DarkSky ensures you can always find their way back home with intuitive navigation features. If you get lost and accidently go down a bad route, you can easily navigate your way back home and continue reading! Enjoy my app during the day or at night, you are only a click away! 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Preview of App:
+ <div align='center'> 
+  <h2>DarkSky: Your nightly news reader</h2>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ </div>
 
-### `npm run build`
+## Installation Instructions:
+Get this news reader running on your machine: 
+- Clone it to your local machine using the command: `git clone git@github.com:Nicolelam8891/newsreader.git`.
+- Run the command: `cd newsreader`
+- Run the command: `npm install`
+- Run the command: `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Context:
+- I am a student of Turing School of Software and Design's 7 month program. This project was during my intermission break transitioning from Mod 3 to Mod 4. 
