@@ -3,6 +3,14 @@ import Card from "../Card/Card";
 
 const ArticleContainer = ({ articles }) => {
   
+  if (articles.length === 0) {
+    return (
+      <div className='no-articles-message'>
+        <p className="no-articles-user">There are no articles that match your search criteria, please try searching for another topic or go back home by clicking on the logo.</p>
+        </div>
+    )
+  }
+  
   const articleCards = articles.map((article, index) => {
     const { id, title, urlToImage, description, publishedAt } = article;
 
