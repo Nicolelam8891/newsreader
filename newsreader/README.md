@@ -1,6 +1,6 @@
 <div align="center">
 <h1>DARK SKY: Your nightly news reader </h1>
-  <br></br>
+
 Technologies used:<br>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/>
