@@ -11,7 +11,7 @@ Technologies used:<br>
 ## Abstract: 
 "DarkSky: Your Nightly News Reader" is an  application designed to cater to the modern news reader's preferences for reading at night. With an intuitive dark mode interface, it minimizes screen glare and enhances the reading experience during the evening or in low-light environments. The app features a seamless, real-time search field that allows you to sift through a multitude of news articles with ease.
 
-Upon selecting an article on the home screen, you are directed to a dedicated page that provides a more detailed view of the article. This page is thoughtfully designed to offer a summary and for those seeking the full story, a direct link is provided to read the article on the original website. This app is also responsive on small, medium and large screens; therefore, you can enjoy this on your phone, tablet, laptop and desktop...using it to enjoy the best of all worlds~
+Upon selecting an article on the home screen, you are directed to a dedicated page that provides a more detailed view of the article. This page is thoughtfully designed to offer a summary and for those seeking the full story, a direct link is provided to read the article on the original website. This app is also responsive on small, medium, and large screens; therefore, you can enjoy this on your phone, tablet, laptop and desktop.
 
 DarkSky ensures you can always find your way back home with intuitive navigation features. If you get lost and accidentally go down a bad route, you can easily navigate your way back home and continue reading! 
 <br></br>
@@ -33,4 +33,4 @@ Get this news reader running on your machine:
 - Run the command: `npm start`
 
 ## Context:
-- I am a student of Turing School of Software and Design's 7-month program. This project was during my intermission break transitioning from Mod 3 to Mod 4. 
+- I am a student of Turing School of Software and Design's 7-month program. This project was completed during my intermission break transitioning from Mod 3 to Mod 4. I created a news reader application that pulls articles from the [NEWS API. ](https://newsapi.org/)https://newsapi.org/]. This app is responsive on small, medium, and large screens.
