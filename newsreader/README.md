@@ -20,6 +20,10 @@ DarkSky ensures you can always find their way back home with intuitive navigatio
 
 # Preview of App:
 ![newsreader](https://github.com/Nicolelam8891/newsreader/assets/132624450/b5fe17c2-0472-4274-aaef-3a9ae4ea2849)
+![Screenshot 2023-11-22 at 11 15 22 PM](https://github.com/Nicolelam8891/newsreader/assets/132624450/3dc1fd63-2cf8-4f0e-8a31-e1d393075fd0)
+![Screenshot 2023-11-22 at 11 16 01 PM](https://github.com/Nicolelam8891/newsreader/assets/132624450/31773b39-a4ff-48e2-bb19-cf8a508a5392)
+![Screenshot 2023-11-22 at 11 16 53 PM](https://github.com/Nicolelam8891/newsreader/assets/132624450/86b60e8f-d033-4331-938a-dd7ab238dd19)
+![Screenshot 2023-11-22 at 11 17 20 PM](https://github.com/Nicolelam8891/newsreader/assets/132624450/68394b07-5ade-4ac9-a004-378b9915b936)
 
 
 ## Installation Instructions:
