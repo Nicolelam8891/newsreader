@@ -11,9 +11,9 @@ Technologies used:<br>
 ## Abstract: 
 "DarkSky: Your Nightly News Reader" is an  application designed to cater to the modern news reader's preferences for reading at night. With an intuitive dark mode interface, it minimizes screen glare and enhances the reading experience during the evening or in low-light environments. The app features a seamless, real-time search field that allows you to sift through a multitude of news articles with ease.
 
-Upon selecting an article on the home screen, you are directed to a dedicated page that provides a more detailed view of the article. This page is thoughtfully designed to offer a summary and for those seeking the full story, a direct link is provided to read the article on the original website.
+Upon selecting an article on the home screen, you are directed to a dedicated page that provides a more detailed view of the article. This page is thoughtfully designed to offer a summary and for those seeking the full story, a direct link is provided to read the article on the original website. This app is also responsive on small, medium and large screens; therefore, you can enjoy this on your phone, tablet, laptop and desktop...using it to enjoy the best of all worlds~
 
-DarkSky ensures you can always find their way back home with intuitive navigation features. If you get lost and accidently go down a bad route, you can easily navigate your way back home and continue reading! 
+DarkSky ensures you can always find your way back home with intuitive navigation features. If you get lost and accidentally go down a bad route, you can easily navigate your way back home and continue reading! 
 <br></br>
 Use my app while admiring the night sky and stars, you are only a click away! 
 
