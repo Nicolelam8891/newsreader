@@ -34,13 +34,17 @@ const App = () => {
     getAllArticles();
   }, []);
 
+  const resetSearchInput = () => {
+    setSearchInput("")
+  }
+
   const filterdArticles = articles.filter((article) => {
     return article.title.toLowerCase().includes(searchInput.toLowerCase());
   });
 
   return (
     <Router>
-      <Header setSearchInput={setSearchInput} />
+      <Header setSearchInput={setSearchInput} resetSearchInput={resetSearchInput}/>
       <main className='App'> </main>
       <Routes>
         <Route

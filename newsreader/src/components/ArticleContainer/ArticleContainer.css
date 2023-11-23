@@ -4,3 +4,12 @@
   flex-wrap: wrap;
   padding-top: 20px;
 }
+
+.no-articles-user {
+  display: flex;
+  text-align: center;
+  color: rgba(145, 210, 247, 0.6);
+  font-weight: 900;
+  font-family: fantasy;
+  font-size: 30px;
+}

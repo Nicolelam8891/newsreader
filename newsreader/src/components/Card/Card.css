@@ -65,7 +65,7 @@
   color: rgba(145, 210, 247, 0.6);
   font-weight: 900;
   font-family: fantasy;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .article-card-description {
@@ -145,7 +145,7 @@
   }
 
   .article-card-title {
-    font-size: 20px;
+    font-size: 18px;
   }
   
   .article-card-date {

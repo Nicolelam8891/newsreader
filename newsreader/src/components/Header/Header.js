@@ -2,15 +2,19 @@ import "./Header.css";
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 
-const Header = ({ setSearchInput }) => {
+const Header = ({ setSearchInput, resetSearchInput }) => {
   const [searchArticle, setSearchArticle] = useState("");
   const location = useLocation();
 
   const handleSearch = (event) => {
-    event.preventDefault();
-    setSearchInput();
+    event.preventDefault(); 
     setSearchInput(searchArticle);
+    clearInput('');
   };
+
+  const clearInput = () => {
+    setSearchArticle("");
+  }
 
   const isNotHomePage = location.pathname !== "/";
 
@@ -18,7 +22,7 @@ const Header = ({ setSearchInput }) => {
     <header className='header'>
       <div className='logo-title-container'>
         <Link to='/'>
-          <img src='news.png' className='news-logo' alt='News Logo' />
+          <img src='news.png' className='news-logo' alt='News Logo' onClick={resetSearchInput} />
         </Link>
         <p className='header-title'>
           <em>Your nightly news reader</em>
