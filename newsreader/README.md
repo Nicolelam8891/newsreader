@@ -18,12 +18,8 @@ Upon selecting an article on the home screen, you are directed to a dedicated pa
 DarkSky ensures you can always find their way back home with intuitive navigation features. If you get lost and accidently go down a bad route, you can easily navigate your way back home and continue reading! Enjoy my app during the day or at night, you are only a click away! 
 
 # Preview of App:
- <div align='center'> 
-  <h2>DarkSky: Your nightly news reader</h2>
-![newsreader](https://github.com/Nicolelam8891/newsreader/assets/132624450/c29a6409-5f2c-44b7-83f8-4698d3a57064)
+![newsreader](https://github.com/Nicolelam8891/newsreader/assets/132624450/b5fe17c2-0472-4274-aaef-3a9ae4ea2849)
 
-
- </div>
 
 ## Installation Instructions:
 Get this news reader running on your machine: 
