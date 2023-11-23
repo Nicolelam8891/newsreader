@@ -20,6 +20,7 @@ DarkSky ensures you can always find their way back home with intuitive navigatio
 # Preview of App:
  <div align='center'> 
   <h2>DarkSky: Your nightly news reader</h2>
+![newsreader](https://github.com/Nicolelam8891/newsreader/assets/132624450/c29a6409-5f2c-44b7-83f8-4698d3a57064)
 
 
  </div>
@@ -32,4 +33,4 @@ Get this news reader running on your machine:
 - Run the command: `npm start`
 
 ## Context:
-- I am a student of Turing School of Software and Design's 7 month program. This project was during my intermission break transitioning from Mod 3 to Mod 4. 
+- I am a student of Turing School of Software and Design's 7-month program. This project was during my intermission break transitioning from Mod 3 to Mod 4. 
