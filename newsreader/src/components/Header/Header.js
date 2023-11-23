@@ -4,12 +4,18 @@ import { useState } from "react";
 
 const Header = ({ setSearchInput, resetSearchInput }) => {
   const [searchArticle, setSearchArticle] = useState("");
+  const [searchError, setSearchError] = useState("");
   const location = useLocation();
 
   const handleSearch = (event) => {
     event.preventDefault(); 
-    setSearchInput(searchArticle);
-    clearInput('');
+    if (!searchArticle.trim()) {
+      setSearchError("Please enter a topic in your seach");
+    } else {
+      setSearchInput(searchArticle);
+      clearInput('');
+      setSearchError("");
+    }
   };
 
   const clearInput = () => {
@@ -47,6 +53,9 @@ const Header = ({ setSearchInput, resetSearchInput }) => {
             </button>
           </form>
         )}
+      <div className="search-error-container">
+        {searchError && <p className="search-error">{searchError}</p>}
+      </div>
       </div>
     </header>
   );

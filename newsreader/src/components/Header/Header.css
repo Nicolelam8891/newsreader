@@ -7,6 +7,20 @@ header {
   margin-bottom: 20px;
 }
 
+.search-error-container {
+  display: flex;
+}
+
+.search-error {
+  display: flex;
+  color: rgba(145, 210, 247, 0.6);
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: 900;
+  margin: 15px;
+  margin-top: 35px;
+}
+
 .logo-title-container {
   display: flex;
   align-items: center;
@@ -98,6 +112,20 @@ header {
   .search-button,
   .search-input-bar {
     width: 100px;
+    margin: 10px;
+    height: 30px;
+  }
+
+  .search-error {
+    font-size: 12px;
+    margin: 5px;
+    align-items: center;
+  }
+
+  form {
+    width: 125px;
+    height: 100px;
+    margin-right: 20px;
   }
 }
 
@@ -120,7 +148,22 @@ header {
 
   .search-button,
   .search-input-bar {
+    width: 200px;
+  }
+
+  .search-bar-container {
     width: 100px;
+  }
+
+  form {
+    width: 400px;
+  }
+
+  .search-error {
+    font-size: 14px;
+    text-align: center;
+    margin: 5px;
+    width: 200px;
   }
 }
 
@@ -129,7 +172,6 @@ header {
     margin: 0px;
     display: flex;
     flex-direction: row;
-    
     align-items: center;
   }
 
@@ -142,14 +184,26 @@ header {
   .header-title {
     font-size: 25px;
     margin: 15px;
-  margin-top: 35px;
+    margin-top: 35px;
   }
 
   .search-button {
-    width: 150px;
+    display: flex;
+    width: 108px;
   }
-  
+
   .search-input-bar {
+    display: flex;
     width: 350px;
+  }
+
+  .search-bar-container {
+    display: flex;
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+    width: auto;
   }
 }
