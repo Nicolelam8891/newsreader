@@ -1,5 +1,6 @@
 import "./Card.css";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const Card = ({ index, title, image, description, date }) => {
   return (
@@ -25,3 +26,11 @@ const Card = ({ index, title, image, description, date }) => {
 };
 
 export default Card;
+
+Card.propTypes = {
+  index: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  image: PropTypes.string,
+  description: PropTypes.string,
+  date: PropTypes.string.isRequired,
+};
