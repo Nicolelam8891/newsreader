@@ -1,6 +1,7 @@
 import "./Header.css";
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
+import PropTypes from "prop-types";
 
 const Header = ({ setSearchInput, resetSearchInput }) => {
   const [searchArticle, setSearchArticle] = useState("");
@@ -8,19 +9,19 @@ const Header = ({ setSearchInput, resetSearchInput }) => {
   const location = useLocation();
 
   const handleSearch = (event) => {
-    event.preventDefault(); 
+    event.preventDefault();
     if (!searchArticle.trim()) {
       setSearchError("Please enter a topic in your seach");
     } else {
       setSearchInput(searchArticle);
-      clearInput('');
+      clearInput("");
       setSearchError("");
     }
   };
 
   const clearInput = () => {
     setSearchArticle("");
-  }
+  };
 
   const isNotHomePage = location.pathname !== "/";
 
@@ -28,7 +29,12 @@ const Header = ({ setSearchInput, resetSearchInput }) => {
     <header className='header'>
       <div className='logo-title-container'>
         <Link to='/'>
-          <img src='news.png' className='news-logo' alt='News Logo' onClick={resetSearchInput} />
+          <img
+            src='news.png'
+            className='news-logo'
+            alt='News Logo'
+            onClick={resetSearchInput}
+          />
         </Link>
         <p className='header-title'>
           <em>Your nightly news reader</em>
@@ -53,12 +59,17 @@ const Header = ({ setSearchInput, resetSearchInput }) => {
             </button>
           </form>
         )}
-      <div className="search-error-container">
-        {searchError && <p className="search-error">{searchError}</p>}
-      </div>
+        <div className='search-error-container'>
+          {searchError && <p className='search-error'>{searchError}</p>}
+        </div>
       </div>
     </header>
   );
 };
 
 export default Header;
+
+Header.propTypes = {
+  setSearchInput: PropTypes.func.isRequired,
+  resetSearchInput: PropTypes.func.isRequired,
+};

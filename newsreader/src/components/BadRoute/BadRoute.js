@@ -1,9 +1,10 @@
 import React from "react";
 import "./BadRoute.css";
+import PropTypes from "prop-types";
 
 const BadRoute = ({ errorRoute, messageRoute }) => {
   return (
-    <div className="error-details">
+    <div className='error-details'>
       <div className='error-bad-route-container'>
         <img
           className='error-nonsense-image'
@@ -19,3 +20,8 @@ const BadRoute = ({ errorRoute, messageRoute }) => {
 };
 
 export default BadRoute;
+
+BadRoute.propTypes = {
+  errorRoute: PropTypes.string,
+  messageRoute: PropTypes.string,
+};
