@@ -33,7 +33,7 @@ Get this news reader running on your machine:
 - Run the command: `npm start`
 
 ## Context:
-- I am a student of Turing School of Software and Design's 7-month program. This project was completed during my intermission break transitioning from Mod 3 to Mod 4. I created a news reader application that pulls articles from the [NEWS API. ](https://newsapi.org/)]. This app is responsive on small, medium, and large screens.
+- I am a student of Turing School of Software and Design's 7-month program. This project was completed during my intermission break transitioning from Mod 3 to Mod 4. I created a news reader application that pulls articles from the newsapi.org. This app is responsive on small, medium, and large screens.
 
 
 ## Wins & challenges:
