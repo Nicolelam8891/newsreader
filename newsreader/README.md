@@ -32,6 +32,7 @@ Use my app while admiring the night sky and stars, you are only a click away!
 <img width="1153" alt="Screenshot 2023-11-25 at 11 13 06 PM" src="https://github.com/Nicolelam8891/newsreader/assets/132624450/b2bc89de-ef47-4d40-beb6-69a5debe67f0">
 
 [My project board](https://github.com/users/Nicolelam8891/projects/4)
+<br></br>
 [My powerpoint](https://docs.google.com/presentation/d/1kKrrsWl_hYc2BZzvqzOu2BeuUEhrngr6mt5S5uZKF_k/edit#slide=id.g2623d934bf4_1_115)
 
 </details>
