@@ -40,23 +40,25 @@ Use my app while admiring the night sky and stars, you are only a click away!
 
 <details>
 <summary>
+<br></br>
+  
 📄 User Stories and Acceptance Criteria
  
 </summary>
 <div align="center">
-As a user, I should see a list of articles on the homepage
+🌱As a user, I should see a list of articles on the homepage
 <br></br>
-Acceptance Criteria: There will be article cards that will all be displayed on the homepage.
+⚡Acceptance Criteria: There will be article cards that will all be displayed on the homepage.
 For each article card, there will be a headline, image, description and date. There will be a search bar, there will not be a home button, there will be a submit button. 
 <br></br>
   
-As a user, I can navigate the search bar and type in related articles I am interested in and click the submit button and have related article cards populate on the home page.
+🌱As a user, I can navigate the search bar and type in related articles I am interested in and click the submit button and have related article cards populate on the home page.
 <br></br> 
-Acceptance criteria: There will be user error handling for the from. There will be a search bar on the home page. There will not be a home button on the home page. There will be a header that is displayed. The article cards that populate will have a headline, image, description and date.
+⚡Acceptance criteria: There will be user error handling for the from. There will be a search bar on the home page. There will not be a home button on the home page. There will be a header that is displayed. The article cards that populate will have a headline, image, description and date.
 <br></br> 
-As a user, I can click the news article card and a single article page will populate.
+🌱As a user, I can click the news article card and a single article page will populate.
 <br></br>
-Acceptance criteria: I will see a detailed view for each article containing a headline, image, data, content, and source. Only one article will be displayed. There will be a home button, there will be a header and there will not be a search bar.
+⚡Acceptance criteria: I will see a detailed view for each article containing a headline, image, data, content, and source. Only one article will be displayed. There will be a home button, there will be a header and there will not be a search bar.
 </details>
 <br></br>
 
