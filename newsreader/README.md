@@ -72,13 +72,21 @@ Get this news reader running on your machine:
 - Run the command: `npm install`
 - Run the command: `npm start`
 
-## Context:
-- I am a student of Turing School of Software and Design's 7-month program. This project was completed during my intermission break transitioning from Mod 3 to Mod 4. I created a news reader application that pulls articles from the [NEWS API](https://newsapi.org/). This app is responsive on small, medium, and large screens.
+### Context:
+```
+- I am a student of Turing School of Software and Design's 7-month program.
+-This project was completed during my intermission break transitioning from Mod 3 to Mod 4.
+-I created a news reader application that pulls articles from the [NEWS API](https://newsapi.org/).
+-This app is responsive on small, medium, and large screens.
+```
 
-
-## Wins & challenges:
-This was the first time I implemented and completed a search bar with React. Although there were moments where I was stuck, I was able to troubleshoot and fix the problem before having to reach out for help. I learned how to better execute Cypress e2e testing through practice and was able to complete the project faster and more efficiently compared to the first week of Mod 3. Although I was stuck on Cypress because the images were different compared to my previous projects, I was able to try a different way and was able to get the tests to pass for the images. 
-
+### Wins & challenges:
+```
+-This was the first time I implemented and completed a search bar with React.
+-Although there were moments when I was stuck, I was able to troubleshoot and fix the problem before having to reach out for help.
+-I learned how to better execute Cypress e2e testing through practice and was able to complete the project faster and more efficiently compared to the first week of Mod 3.
+-Although I was stuck on Cypress because the images were different compared to my previous projects, I was able to try a different way and was able to get the tests to pass for the images. 
+```
 
 
 
