@@ -25,11 +25,12 @@ Use my app while admiring the night sky and stars, you are only a click away!
 <details>
 <summary>
 📈 Project Board
+  [My Project board]([https://newsapi.org/](https://github.com/users/Nicolelam8891/projects/4)https://github.com/users/Nicolelam8891/projects/4)
 </summary>
 <div align="center">
 </details>
   
-[My Project board]([https://newsapi.org/](https://github.com/users/Nicolelam8891/projects/4)https://github.com/users/Nicolelam8891/projects/4)
+
 <br></br>
 User stories & Acceptance Criteria: As a user, I can navigate the search bar and type in related articles I am interested in and click the submit button and have related article cards populate on the home page.
 
