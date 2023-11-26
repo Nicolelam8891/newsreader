@@ -22,10 +22,12 @@ DarkSky ensures you can always find your way back home with intuitive navigation
 Use my app while admiring the night sky and stars, you are only a click away! 
 
 ## Planning:
+<details>
 <summary>
 📈 Project Board
 </summary>
 <div align="center">
+</details>
   
 [My Project board]([https://newsapi.org/](https://github.com/users/Nicolelam8891/projects/4)https://github.com/users/Nicolelam8891/projects/4)
 <br></br>
