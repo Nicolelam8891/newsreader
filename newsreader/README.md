@@ -52,7 +52,6 @@ For each article card, there will be a headline, image, description and date. Th
 <br></br> 
 ⚡Acceptance criteria: There will be user error handling for the from. There will be a search bar on the home page. There will not be a home button on the home page. There will be a header that is displayed. The article cards that populate will have a headline, image, description and date. Once the user clicks on the search button, the input will clear so that the user doesn’t have to manually delete what they had just typed. 
 
-<br></br> 
 🌱As a user, I can click the news article card and a single article page will populate.
 <br></br>
 ⚡Acceptance criteria: I will see a detailed view for each article containing a headline, image, data, content, and source. Only one article will be displayed. There will be a home button, there will be a header and there will not be a search bar. When a user clicks on the link to read more about the article, they will be transferred to the the article url and can read the rest of the article. 
