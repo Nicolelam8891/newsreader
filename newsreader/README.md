@@ -65,14 +65,14 @@ For each article card, there will be a headline, image, description and date. Th
 ![Screenshot 2023-11-22 at 11 17 20 PM](https://github.com/Nicolelam8891/newsreader/assets/132624450/68394b07-5ade-4ac9-a004-378b9915b936)
 
 
-## Installation Instructions:
+## 📗 Installation Instructions:
 Get this news reader running on your machine: 
 - Clone it to your local machine using the command: `git clone git@github.com:Nicolelam8891/newsreader.git`.
 - Run the command: `cd newsreader`
 - Run the command: `npm install`
 - Run the command: `npm start`
 
-### Context:
+### 📗 Context:
 ```
 - I am a student of Turing School of Software and Design's 7-month program.
 -This project was completed during my intermission break transitioning from Mod 3 to Mod 4.
@@ -80,7 +80,7 @@ Get this news reader running on your machine:
 -This app is responsive on small, medium, and large screens.
 ```
 
-### Wins & challenges:
+### 🎉 Wins & challenges:
 ```
 -This was the first time I implemented and completed a search bar with React.
 -Although there were moments when I was stuck, I was able to troubleshoot and fix the problem before having to reach out for help.
