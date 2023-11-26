@@ -37,8 +37,6 @@ Use my app while admiring the night sky and stars, you are only a click away!
   
 <details>
 <summary>
-<br></br>
-  
   📄 User Stories and Acceptance Criteria
  
 </summary>
