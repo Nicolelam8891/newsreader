@@ -9,8 +9,6 @@ Technologies used:<br>
 
   <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
   <img src="https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e" />
-  
-
 
 </div>
 
@@ -24,6 +22,11 @@ DarkSky ensures you can always find your way back home with intuitive navigation
 Use my app while admiring the night sky and stars, you are only a click away! 
 
 ## Planning:
+<summary>
+📈 Project Board
+</summary>
+<div align="center">
+  
 [My Project board]([https://newsapi.org/](https://github.com/users/Nicolelam8891/projects/4)https://github.com/users/Nicolelam8891/projects/4)
 <br></br>
 User stories & Acceptance Criteria: As a user, I can navigate the search bar and type in related articles I am interested in and click the submit button and have related article cards populate on the home page.
