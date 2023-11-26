@@ -17,6 +17,11 @@ DarkSky ensures you can always find your way back home with intuitive navigation
 <br></br>
 Use my app while admiring the night sky and stars, you are only a click away! 
 
+## Planning:
+[My Project board]([https://newsapi.org/](https://github.com/users/Nicolelam8891/projects/4)https://github.com/users/Nicolelam8891/projects/4)
+<br></br>
+User stories & Acceptance Criteria: As a user, I can navigate the search bar and type in related articles I am interested in and click the submit button and have related article cards populate on the home page.
+
 # Preview of App:
 ![newsreader](https://github.com/Nicolelam8891/newsreader/assets/132624450/b5fe17c2-0472-4274-aaef-3a9ae4ea2849)
 ![Screenshot 2023-11-22 at 11 15 22 PM](https://github.com/Nicolelam8891/newsreader/assets/132624450/3dc1fd63-2cf8-4f0e-8a31-e1d393075fd0)
@@ -38,4 +43,8 @@ Get this news reader running on your machine:
 
 ## Wins & challenges:
 This was the first time I implemented and completed a search bar with React. Although there were moments where I was stuck, I was able to troubleshoot and fix the problem before having to reach out for help. I learned how to better execute Cypress e2e testing through practice and was able to complete the project faster and more efficiently compared to the first week of Mod 3. Although I was stuck on Cypress because the images were different compared to my previous projects, I was able to try a different way and was able to get the tests to pass for the images. 
+
+
+
+
 
