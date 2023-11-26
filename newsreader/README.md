@@ -49,7 +49,8 @@ For each article card, there will be a headline, image, description and date. Th
   
 🌱As a user, I can navigate the search bar and type in related articles I am interested in and click the submit button and have related article cards populate on the home page.
 <br></br> 
-⚡Acceptance criteria: There will be user error handling for the from. There will be a search bar on the home page. There will not be a home button on the home page. There will be a header that is displayed. The article cards that populate will have a headline, image, description and date.
+⚡Acceptance criteria: There will be user error handling for the from. There will be a search bar on the home page. There will not be a home button on the home page. There will be a header that is displayed. The article cards that populate will have a headline, image, description and date. Once the user clicks on the search button, the input will clear so that the user doesn’t have to manually delete what they had just typed. 
+
 <br></br> 
 🌱As a user, I can click the news article card and a single article page will populate.
 <br></br>
