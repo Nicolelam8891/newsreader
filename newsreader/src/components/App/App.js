@@ -42,6 +42,7 @@ const App = () => {
     return article.title.toLowerCase().includes(searchInput.toLowerCase());
   });
 
+
   return (
     <Router>
       <Header setSearchInput={setSearchInput} resetSearchInput={resetSearchInput}/>
