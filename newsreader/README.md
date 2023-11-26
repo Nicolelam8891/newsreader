@@ -53,6 +53,7 @@ For each article card, there will be a headline, image, description and date. Th
 
 <br></br> 
 🌱As a user, I can click the news article card and a single article page will populate.
+<br></br>
 ⚡Acceptance criteria: I will see a detailed view for each article containing a headline, image, data, content, and source. Only one article will be displayed. There will be a home button, there will be a header and there will not be a search bar.
 </details>
 <br></br>
