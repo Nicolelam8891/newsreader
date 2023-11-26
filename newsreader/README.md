@@ -34,3 +34,12 @@ Get this news reader running on your machine:
 
 ## Context:
 - I am a student of Turing School of Software and Design's 7-month program. This project was completed during my intermission break transitioning from Mod 3 to Mod 4. I created a news reader application that pulls articles from the [NEWS API. ](https://newsapi.org/)https://newsapi.org/]. This app is responsive on small, medium, and large screens.
+
+
+## Wins & challenges:
+First time implementing a search bar with React
+Although there were moments where I was stuck, I was able to troubleshoot and fix the problem before having to reach out for help
+Learned how to better execute Cypress e2e testing through practice
+Able to complete the project fast and more efficiently compared to the first week of Mod 3
+I was stuck on Cypress because the images were different but was able to try a different way and was able to get the tests to pass
+
