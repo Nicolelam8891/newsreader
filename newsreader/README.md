@@ -21,7 +21,7 @@ DarkSky ensures you can always find your way back home with intuitive navigation
 <br></br>
 Use my app while admiring the night sky and stars, you are only a click away! 
 
-## Planning:
+## 📑 Planning:
 <details>
 <summary>
  📉 Project Board
