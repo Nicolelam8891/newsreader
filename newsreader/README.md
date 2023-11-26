@@ -25,9 +25,10 @@ Use my app while admiring the night sky and stars, you are only a click away!
 <details>
 <summary>
 📈 Project Board
-  [My Project board]([https://newsapi.org/](https://github.com/users/Nicolelam8891/projects/4)https://github.com/users/Nicolelam8891/projects/4)
+ 
 </summary>
 <div align="center">
+   [My Project board]([https://newsapi.org/](https://github.com/users/Nicolelam8891/projects/4)https://github.com/users/Nicolelam8891/projects/4)
 </details>
   
 
