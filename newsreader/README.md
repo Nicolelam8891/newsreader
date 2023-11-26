@@ -28,7 +28,9 @@ Use my app while admiring the night sky and stars, you are only a click away!
  
 </summary>
 <div align="center">
-[My Project Board(https://github.com/users/Nicolelam8891/projects/4)https://github.com/users/Nicolelam8891/projects/4).
+
+[My project board](https://github.com/users/Nicolelam8891/projects/4). 
+  
 </details>
   
 
