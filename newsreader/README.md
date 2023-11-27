@@ -62,9 +62,16 @@ For each article card, there will be a headline, image, description and date. Th
 
 # 🎋Preview of App:
 ![newsreader](https://github.com/Nicolelam8891/newsreader/assets/132624450/b5fe17c2-0472-4274-aaef-3a9ae4ea2849)
+<br></br>
 ![Screenshot 2023-11-22 at 11 15 22 PM](https://github.com/Nicolelam8891/newsreader/assets/132624450/3dc1fd63-2cf8-4f0e-8a31-e1d393075fd0)
+<br></br>
+
 ![Screenshot 2023-11-22 at 11 16 01 PM](https://github.com/Nicolelam8891/newsreader/assets/132624450/31773b39-a4ff-48e2-bb19-cf8a508a5392)
+<br></br>
+
 ![Screenshot 2023-11-22 at 11 16 53 PM](https://github.com/Nicolelam8891/newsreader/assets/132624450/86b60e8f-d033-4331-938a-dd7ab238dd19)
+<br></br>
+
 ![Screenshot 2023-11-22 at 11 17 20 PM](https://github.com/Nicolelam8891/newsreader/assets/132624450/68394b07-5ade-4ac9-a004-378b9915b936)
 
 
@@ -81,6 +88,7 @@ Get this news reader running on your machine:
 -This project was completed during my intermission break transitioning from Mod 3 to Mod 4.
 -I created a news reader application that pulls articles from the [NEWS API](https://newsapi.org/).
 -This app is responsive on small, medium, and large screens.
+-I am unable to deploy this app due to the API I am utilizing. 
 ```
 
 ### 🎉 Wins & challenges:
