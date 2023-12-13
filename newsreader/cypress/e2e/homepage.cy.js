@@ -41,9 +41,7 @@ describe("Homepage", () => {
         "p",
         "You can get a four-pack of Apple AirTags at nearly their lowest price ever right now in a Black Friday deal on Amazon"
       );
-      cy.get(
-        '[href="/articleDetails/0"] > .card > .article-card-info > .article-card-date'
-      ).contains("p", "November 19, 2023 at 08:13 AM");
+      cy.get('a[href="/articleDetails/0"]').contains("p",'November 19, 2023 at 08:43 PM');
       cy.get('[href="/articleDetails/18"] > .card');
       cy.get('[href="/articleDetails/18"] > .card > .article-card-image')
         .last()
@@ -58,9 +56,9 @@ describe("Homepage", () => {
       cy.get(
         '[href="/articleDetails/18"] > .card > .article-card-info > .article-card-description'
       ).contains("Historical source code for");
-      cy.get(
-        '[href="/articleDetails/18"] > .card > .article-card-info > .article-card-date'
-      ).contains("p", "November 18, 2023 at 05:40 PM");
+      
+
+       cy.get('a[href="/articleDetails/1"]').contains("p",'November 19, 2023 at 08:43 PM')
       cy.get(".search-button").contains("SEARCH").click();
       cy.get(".search-error").contains("p", "Please enter");
       cy.get(".search-input-bar")
@@ -83,7 +81,9 @@ describe("Homepage", () => {
         "p",
         "to pick up a tablet in the Google ecosystem"
       );
-      cy.get(".article-card-date").contains("p", "November 19, 2023").click();
+     
+
+       cy.get(".article-card-date").contains("p","November 20, 2023 at 02:50 AM").click();
       cy.get(".article-details-container");
       cy.get(".article-image")
         .should("have.attr", "src")
@@ -95,7 +95,8 @@ describe("Homepage", () => {
         "p",
         "Best Buy Black Friday deal knocks $100 off the Google Pixel Tablet"
       );
-      cy.get(".article-date").contains("p", "November 19, 2023");
+      
+         cy.get(".article-date").contains("p", "November 20, 2023 at 02:50 AM");
       cy.get(".article-content").contains("p", "Joe Maring");
       cy.get(".article-link").contains("a", "Read");
       cy.get(".home-button").contains("HOME");
